@@ -14,6 +14,17 @@
   padding-bottom: 3rem;
   text-align: center;
 }
+.contact {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 .services {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
