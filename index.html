@@ -108,12 +108,12 @@
         <div class="col-md-3">
           <div class="portfolio-item">
             <div class="portfolio-hover">
-              <div class="portfolio-hover-content"> 
+              <div class="portfolio-hover-content">
                 <p>Mighty Ontario Security</p>
               </div>
             </div>
             <img class="img-fluid" src="assets/portfolio/work3.jpg">
-          </div>  
+          </div>
         </div>
         <!-- Pyramids -->
         <div class="col-md-3">
@@ -188,14 +188,29 @@
   </section>
 
   <!-- Contact Us -->
-  <section>
+  <section id="contact">
     <div class="container">
-      <div id="contact">
-        <div class="text-center">
-          <h3 class="text-uppercase">Contact Us</h3>
-        </div>
+      <div class="text-center">
+        <h3 class="text-uppercase">Contact Us</h3>
       </div>
-
+      <form id="contactForm">
+        <div class="row">
+          <!-- Name Input -->
+          <div class="col-md-6">
+            <div>
+              <input id="name" type="text" placeholder="Name..." required />
+            </div>
+          </div>
+          <!-- Email Input -->
+          <div class="col-md-6">
+            <div>
+              <input id="email" type="email" placeholder="Email..." required />
+            </div>
+          </div>
+          <!--Message Input-->
+          <textarea id="message" placeholder="Your message here..." required></textarea>
+        </div>
+      </form>
     </div>
   </section>
 </body>
