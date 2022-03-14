@@ -102,10 +102,11 @@ $(document).ready(function () {
 //Back-End Logic (Business Logic)
 
 $(document).ready(function () {
+  //Create a pop up message
   $("form").submit(function (event) {
-    var name = $("input#name").val();
+    var name = $("input#mce-FNAME").val();
     alert(`${name}, we have received your message. Thank you for reaching out to us.`);
-    ("form").reset();
+    ("#contactForm").reset();
     event.preventDefault();
   });
 });
