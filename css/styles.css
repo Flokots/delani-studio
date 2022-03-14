@@ -24,19 +24,19 @@
   display: none;
 }
 .design-logo-showing {
-  display: true;
+  display: block;
 }
 .dev-description-hidden {
   display: none;
 }
 .dev-logo-showing {
-  display: true;
+  display: block;
 }
 .product-description-hidden {
   display: none;
 }
 .product-logo-showing {
-  display: true;
+  display: block;
 }
 #portfolio {
   display: flex;
