@@ -2,6 +2,8 @@
 A landing page for a fictional studio- Delani Studio.
 # Author
 [Florence Kotohoyoh](https://github.com/Flokots/)
+### Demo (Live Site)
+[Delani Studio](https://Flokots.github.io/delani-studio)
 ## Technologies and Dependencies Used
 * HTML
 * CSS
