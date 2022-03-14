@@ -16,7 +16,7 @@
 }
 .description {
   text-align: center;
-  }
+}
 .description h4 {
   font-weight: bold;
 }
@@ -45,29 +45,6 @@
   margin-left: 10rem;
   margin-right: 10rem;
   margin-bottom: 2rem;
-}
-#portfolio .portfolio-item {
-  max-width: 26rem;
-  margin: 1rem 1rem 0.5rem 0.5rem;
-}
-#portfolio .portfolio-item img {
-  max-width: 100%;
-  max-height: 100%;
-}
-#portfolio .portfolio-item .portfolio-hover{
-  display: none;
-  width: 100%;
-  height: 100%;
-  background: white;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity ease-in-out 0.25s;
-}
-#portfolio .portfolio-item .portfolio-hover .portfolio-hover-content {
-  display: none;
-  font-size: 1.25rem;
-  color: white;
 }
 #contact {
   padding-top: 6rem;
@@ -156,4 +133,42 @@ footer {
 .social {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.bg-theme-image, .mighty-ontario-image, .pyramids-image, .jim-carrey-image, 
+.good-day-image, .input-forms-image, .b-l-mockup-image, .giraffe-restaurant-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.b-g-theme-middle, .mighty-ontario-middle, .pyramids-middle, .jim-carrey-middle, 
+.good-day-middle, .input-forms-middle, .b-l-mockup-middle, .giraffe-restaurant-middle {
+  transition: .5s ease;
+  opacity: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+.image-opacity {
+  opacity: 0.7;
+}
+.middle-opacity {
+  opacity: 1;
+}
+.text {
+  background: white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.portfolio-item {
+  position: relative;
+  margin-bottom: 2rem;
 }
