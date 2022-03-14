@@ -1,6 +1,4 @@
 .masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -8,6 +6,14 @@
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+.masthead img {
+  padding-top: 10rem;
+  padding-bottom: 1.5rem;
+}
+.body {
+  font-family: "Cormorant Garamond", serif;
 }
 .about {
   padding-top: 2rem;
