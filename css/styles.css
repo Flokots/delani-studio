@@ -102,6 +102,9 @@
 .form-group textarea {
   padding: 1.25rem;
 }
+.response {
+  background-color:#ffebcd;
+}
 section#contact form#mc-embedded-subscribe-form textarea {
   height: 100%;
   min-height: 10rem;
